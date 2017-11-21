@@ -1,0 +1,18 @@
+[INFO]    Loading 15 extension(s)...
+[ERROR]   Failed to load extension soak
+	->ImportError: No module named 'requests'
+[ERROR]   Failed to load extension withdraw
+	->ImportError: No module named 'requests'
+[ERROR]   Failed to load extension wallet_info
+	->ImportError: No module named 'requests'
+[ERROR]   Failed to load extension help
+	->ClientException: Command help is already registered.
+[INFO]    Establishing connection to database...
+[ERROR]   Failed to load extension tip
+	->ImportError: No module named 'requests'
+[ERROR]   Failed to load extension deposit
+	->ImportError: No module named 'requests'
+[ERROR]   Failed to load extension balance
+	->ImportError: No module named 'requests'
+[INFO]    Establishing connection to database...
+[SUCCESS] Successfully loaded the following extension(s); ['pull', 'uptime', 'debug', 'log', 'server', 'test', 'db', 'invite']

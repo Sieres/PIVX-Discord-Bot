@@ -1,0 +1,11 @@
+----------Discord PIVX Tip Bot App-------------
+APP DETAILS
+Client ID: 377448422841516032
+Client Secret:
+l-TlrqEBW_l-JerLJJrCSZFuvep2oBT3
+
+---------Discord PIVX Bot Details-------------
+APP BOT USER
+Username: PIVXTipBot#9116
+Token:
+Mzc3NDQ4NDIyODQxNTE2MDMy.DONGHQ.Dc6RgFgWVaYHhH3g5aYdfbHdHWY
