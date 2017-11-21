@@ -4,12 +4,16 @@
 This source code is free to use & distribute under the MIT Licence.
 Attributions must be kept and paid to the authors of these source files.
 
+
 # Authors of this source code:
 Aareon of the Netcoin Community: 2016
-\n Sieres of the PIVX Community: 2017
+
+Sieres of the PIVX Community: 2017
+
 
 These files are intended to function as a multi-functional tipbot for PIVX Currency.
 Use of these source files are used at your own risk, PIVX takes no accountability to lost funds / incorrect balances or anything that may occur negatively as a result of this source code.
+
 ----------------------------------------------------------
 
 # Requirements
