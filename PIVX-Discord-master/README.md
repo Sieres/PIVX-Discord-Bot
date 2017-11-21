@@ -40,32 +40,30 @@ CREATE TABLE tip (userid_from_fk MEDIUMINT, userid_to_pk MEDIUMINT, amount VARCH
 
 #Coffee me! If you've found this source code useful, feel free to shout me a coffee!
 -----------------------------------------------------
-BTC Address: 1MQx7rPJGPGwQL1RnC7Q3UZCC6kRpp8KTF
-PIVX Address: DE6FCHWVcPPvE2XzCs7R6ZjT64LjXUAgDY
+*BTC Address: 1MQx7rPJGPGwQL1RnC7Q3UZCC6kRpp8KTF
+*PIVX Address: DE6FCHWVcPPvE2XzCs7R6ZjT64LjXUAgDY
 
-We ❤️ Pull Requests!
-
-##TO DO
-##ISSUE: When tipping, @invalid-user is used
-##ISSUE: After being tipped, DB does not update the new receiver balance
-##PISSUE: IF being tipped twice and then check balance, first tip may not apply?
-##DM's for Withdrawal / Balance & Deposit address - DONE
-##Validation to prevent withdraws into deposit account, doubling up on balance - DONE
-##Add mySQL connection pools
-##Setup forever node.js
-##Refactor & make more robust / error handling
-##Admin commands - view all balances / view user balances / view not 0 balances
-##Print Proposals list - RPC ADDED
-##Print budget projction list - RPC ADDED
-##Current Prices USD / BTC Etc
-##Address Search - not sure if this is possible
-##Support help - am i forked? Where are my zPIV / Guides
-##Bootstap / Snapshot links
-##Superblock - RPC ADDED
-##Shout me a coffee
-##Masternode list search
-##Support ticketing /queuing system ##MAYBE
-##Gambling - Heads / Tails ##MAYBE
-##Blackjack ##MAYBE
+*##TO DO
+*##ISSUE: When tipping, @invalid-user is used
+*##ISSUE: After being tipped, DB does not update the new receiver balance
+*##PISSUE: IF being tipped twice and then check balance, first tip may not apply?
+*##DM's for Withdrawal / Balance & Deposit address - DONE
+*##Validation to prevent withdraws into deposit account, doubling up on balance - DONE
+*##Add mySQL connection pools
+*##Setup forever node.js
+*##Refactor & make more robust / error handling
+*##Admin commands - view all balances / view user balances / view not 0 balances
+*##Print Proposals list - RPC ADDED
+*##Print budget projction list - RPC ADDED
+*##Current Prices USD / BTC Etc
+*##Address Search - not sure if this is possible
+*##Support help - am i forked? Where are my zPIV / Guides
+*##Bootstap / Snapshot links
+*##Superblock - RPC ADDED
+*##Shout me a coffee
+*##Masternode list search
+*##Support ticketing /queuing system ##MAYBE
+*##Gambling - Heads / Tails ##MAYBE
+*##Blackjack ##MAYBE
 
 Discord Tip Bot is a fork of Netcoin Disco Tip Bot running on MySQL.
