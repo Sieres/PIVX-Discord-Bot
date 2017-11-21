@@ -26,26 +26,26 @@ Use of these source files are used at your own risk, PIVX takes no accountabilit
 * Allow users to withdraw coins from the wallet with respect to how many coins they have in the DB
 * Show network data through the wallet RPC functions
 
-#Create table commands for MySQL for use with this bot. You're welcome.
-DB Tables
+# Create table commands for MySQL for use with this bot. You're welcome.
+# DB Tables
 --------------------
-CREATE DATABASE crypto_db;
-CREATE TABLE db (user VARCHAR(50), snowflake VARCHAR(50), balance VARCHAR(25), staked VARCHAR(50), lasttxid VARCHAR(50));
-CREATE TABLE server (server_id VARCHAR(50), enable_soak VARCHAR(1));
-CREATE TABLE channel (channel_id VARCHAR(50), server_id VARCHAR(50), enabled VARCHAR(1));
-CREATE TABLE person (userid_pk MEDIUMINT NOT NULL AUTO_INCREMENT, PRIMARY KEY (userid_pk), username VARCHAR(50), balance VARCHAR(25));
-CREATE TABLE withdrawal (userid_pk MEDIUMINT, PRIMARY KEY (userid_pk), address_from VARCHAR(50), address_to VARCHAR(50), amount VARCHAR(25));
-CREATE TABLE deposit (userid_pk MEDIUMINT, PRIMARY KEY (userid_pk), address_from VARCHAR(50), address_to VARCHAR(50), amount VARCHAR(25));
-CREATE TABLE tip (userid_from_fk MEDIUMINT, userid_to_pk MEDIUMINT, amount VARCHAR(25));
-
+* CREATE DATABASE crypto_db;
+* CREATE TABLE db (user VARCHAR(50), snowflake VARCHAR(50), balance VARCHAR(25), staked VARCHAR(50), lasttxid VARCHAR(50));
+* CREATE TABLE server (server_id VARCHAR(50), enable_soak VARCHAR(1));
+* CREATE TABLE channel (channel_id VARCHAR(50), server_id VARCHAR(50), enabled VARCHAR(1));
+* CREATE TABLE person (userid_pk MEDIUMINT NOT NULL AUTO_INCREMENT, PRIMARY KEY (userid_pk), username VARCHAR(50), balance VARCHAR(25));
+* CREATE TABLE withdrawal (userid_pk MEDIUMINT, PRIMARY KEY (userid_pk), address_from VARCHAR(50), address_to VARCHAR(50), amount VARCHAR(25));
+* CREATE TABLE deposit (userid_pk MEDIUMINT, PRIMARY KEY (userid_pk), address_from VARCHAR(50), address_to VARCHAR(50), amount VARCHAR(25));
+* CREATE TABLE tip (userid_from_fk MEDIUMINT, userid_to_pk MEDIUMINT, amount VARCHAR(25));
+----------------------------------------------------------
 #Coffee me! If you've found this source code useful, feel free to shout me a coffee!
 -----------------------------------------------------
 * BTC Address: 1MQx7rPJGPGwQL1RnC7Q3UZCC6kRpp8KTF
 * PIVX Address: DE6FCHWVcPPvE2XzCs7R6ZjT64LjXUAgDY
-
+----------------------------------------------------------
 
 # TO DO
-----------------------------------------------------------
+
 * ISSUE: When tipping, @invalid-user is used
 * ISSUE: After being tipped, DB does not update the new receiver balance
 * PISSUE: IF being tipped twice and then check balance, first tip may not apply?
@@ -67,5 +67,6 @@ CREATE TABLE tip (userid_from_fk MEDIUMINT, userid_to_pk MEDIUMINT, amount VARCH
 * Support ticketing /queuing system ##MAYBE
 * Gambling - Heads / Tails ##MAYBE
 * Blackjack ##MAYBE
+----------------------------------------------------------
 
-Discord Tip Bot is a fork of Netcoin Disco Tip Bot running on MySQL.
+# Discord Tip Bot is a fork of Netcoin Disco Tip Bot running on MySQL.
