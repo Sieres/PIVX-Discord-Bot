@@ -1,10 +1,10 @@
 # Discord-PIVX-Bot
 [<img src="https://pivx.org/wp-content/uploads/2017/01/PIVX_illustrated_white.png">](https://discord.gg/F8HByx2)
 
-#This source code is free to use & distribute under the MIT Licence.
+This source code is free to use & distribute under the MIT Licence.
 Attributions must be kept and paid to the authors of these source files.
-Authors of this source code:
 
+# Authors of this source code:
 Aareon of the Netcoin Community: 2016
 Sieres of the PIVX Community: 2017
 
